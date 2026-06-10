@@ -3,147 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>乐成电脑回收 - 高价回收二手电脑</title>
+    <title>乐成电脑回收 - 南宁上门回收二手电脑</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "Microsoft YaHei", sans-serif;
+            font-family: "微软雅黑", sans-serif;
         }
         body {
-            background: #f5f7fa;
-            color: #333;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
+            background-color: #f5f7fa;
             padding: 20px;
-            text-align: center;
-        }
-        .container {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
         }
         .banner {
-            background: #3498db;
+            background: linear-gradient(90deg, #2185d0, #42a5f5);
             color: white;
             padding: 40px 20px;
             text-align: center;
-            border-radius: 10px;
-            margin-bottom: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        .banner h2 {
-            font-size: 26px;
+        .banner h1 {
+            font-size: 30px;
             margin-bottom: 10px;
         }
-        .card {
+        .banner p {
+            font-size: 17px;
+        }
+        .section {
             background: white;
-            padding: 25px;
-            border-radius: 10px;
+            padding: 30px 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            font-size: 22px;
+            color: #222;
             margin-bottom: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: relative;
+            padding-left: 10px;
         }
-        .card h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 20px;
+        .section h2:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 4px;
+            bottom: 4px;
+            width: 4px;
+            background: #2185d0;
+            border-radius: 2px;
         }
-        .items {
-            display: flex;
-            flex-wrap: wrap;
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 15px;
-            margin-top: 10px;
         }
-        .item {
-            flex: 1;
-            min-width: 200px;
-            background: #f8f9fa;
-            padding: 15px;
+        .category-item {
+            background: #f7f9fc;
+            padding: 18px;
+            text-align: center;
             border-radius: 8px;
-            text-align: center;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        input, textarea {
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
             font-size: 15px;
+            color: #333;
+            border: 1px solid #eef2f7;
         }
-        button {
-            background: #e74c3c;
-            color: white;
-            border: none;
-            padding: 14px;
-            border-radius: 6px;
+        .process {
             font-size: 16px;
-            cursor: pointer;
+            color: #444;
+            line-height: 2;
         }
-        button:hover {
-            background: #c0392b;
+        .form-group {
+            margin-bottom: 18px;
         }
-        .contact {
-            text-align: center;
-            font-size: 18px;
-            line-height: 1.8;
+        .form-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid #e0e6ed;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+            transition: 0.2s;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #2c3e50;
+        .form-group input:focus {
+            border-color: #2185d0;
+        }
+        .form-group input[type="submit"] {
+            background: #2185d0;
             color: white;
-            margin-top: 30px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .service-highlight {
+            background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+            border-left: 5px solid #2185d0;
+        }
+        .contact-info p {
+            font-size: 16px;
+            line-height: 2;
+            text-align: center;
+            color: #333;
+        }
+        .contact-info strong {
+            color: #2185d0;
+            font-size: 17px;
         }
     </style>
 </head>
+
 <body>
-<header>
-    <h1>乐成电脑回收</h1>
-    <p>专业高价回收二手电脑 | 快速估价 | 上门回收 | 当场结算</p>
-</header>
-<div class="container">
+
     <div class="banner">
-        <h2>旧电脑别闲置！乐成高价回收</h2>
-        <p>笔记本、台式机、一体机、服务器、配件统统收！</p>
+        <h1>乐成电脑回收 · 高价回收二手电脑</h1>
+        <p>南宁上门回收 | 当场报价 | 现场结算 | 安全可靠</p>
     </div>
-    <div class="card">
-        <h3>我们回收的品类</h3>
-        <div class="items">
-            <div class="item">笔记本电脑</div>
-            <div class="item">台式机电脑</div>
-            <div class="item">一体机电脑</div>
-            <div class="item">显示器</div>
-            <div class="item">CPU / 显卡 / 内存</div>
-            <div class="item">品牌整机 / 服务器</div>
+
+    <div class="section">
+        <h2>回收品类</h2>
+        <div class="category-grid">
+            <div class="category-item">笔记本电脑</div>
+            <div class="category-item">台式机电脑</div>
+            <div class="category-item">一体机电脑</div>
+            <div class="category-item">显示器</div>
+            <div class="category-item">CPU / 显卡 / 内存</div>
+            <div class="category-item">品牌整机 / 服务器</div>
         </div>
     </div>
-    <div class="card">
-        <h3>回收流程</h3>
-        <p>1. 联系我们 / 在线留言 → 2. 描述电脑配置 → 3. 快速报价 → 4. 上门/邮寄 → 5. 当场付款</p>
+
+    <div class="section">
+        <h2>回收流程</h2>
+        <div class="process">
+            1. 联系我们 → 2. 描述电脑配置 → 3. 快速报价 → 4. 上门/邮寄 → 5. 当场付款
+        </div>
     </div>
-    <div class="card">
-        <h3>在线估价（留下信息，我们马上联系你）</h3>
+
+    <!-- 美化版 服务范围与优势 -->
+    <div class="section service-highlight">
+        <h2>服务范围与优势</h2>
+        <div style="font-size:16px; line-height:2.2;">
+            <p style="margin:8px 0;"><strong style="color:#2185d0;">📍 服务范围：</strong> 广西南宁地区<strong style="color:#e53935;">免费上门回收</strong>，其他地区可邮寄到付</p>
+            <p style="margin:8px 0;"><strong style="color:#2185d0;">💻 主营品类：</strong> 笔记本、台式机、一体机、显示器、CPU/显卡/内存等配件</p>
+            <p style="margin:8px 0;"><strong style="color:#2185d0;">✨ 服务优势：</strong> 免费上门评估 · 当场验机报价 · <strong style="color:#e53935;">立即结算</strong> · 全程透明无套路</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>在线估价</h2>
         <form action="https://formsubmit.co/34536277@qq.com" method="POST">
-            <input type="text" name="name" placeholder="你的姓名" required>
-            <input type="tel" name="phone" placeholder="你的电话/微信" required>
-            <input type="text" name="computer" placeholder="电脑型号/配置（如：联想小新 i5 8G 256G）" required>
-            <textarea name="info" placeholder="补充说明（新旧程度、故障等）"></textarea>
-            <button type="submit">立即提交估价</button>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="你的姓名" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="contact" placeholder="电话/微信" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="config" placeholder="电脑型号/配置（如：联想小新 i5 8G 256G）" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="立即提交估价">
+            </div>
         </form>
     </div>
-    <div class="card contact">
-        <h3>联系我们</h3>
-        <p>电话/微信：<strong>139 7882 2747</strong></p>
-        <p>地区：广西南宁地区上门回收，诚信经营</p>
+
+    <!-- 联系我们板块（你要求的内容） -->
+    <div class="section">
+        <h2>联系我们</h2>
+        <div class="contact-info">
+            <p><strong>电话/微信：139 7882 2747</strong></p>
+            <p>地区：广西南宁地区上门回收，诚信经营</p>
+        </div>
     </div>
-</div>
-<footer>
-    <p>© 2026 乐成电脑回收 - 专业二手电脑回收</p>
-</footer>
+
 </body>
 </html>
