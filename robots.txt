@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://666888cl.github.io/lecheng/sitemap.xml
